@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 import time
 
 
@@ -9,13 +9,13 @@ for x in range(20):
     if x == 1:
         pass
     if x == 2:
-        print "helle nan"
+        print "helle world"
         continue
     if x == 10:
         break
     if x == 6:
         exit()
-    print "I like u nan!"
+    print "I am ok!"
 else:
     print "hi"
 
