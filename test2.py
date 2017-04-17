@@ -1,8 +1,8 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 
 
-d = {"name":"nan","age":29,"work":"HR"}
-l = [1,2,4,6,7,9,"nan","chen"]
+d = {"name":"jak","age":29,"work":"IT"}
+l = [1,2,4,6,7,9,"jak","ding"]
 str = "hello"
 for x in range(len(str)):
     print str[x]
