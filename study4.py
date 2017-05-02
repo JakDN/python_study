@@ -16,6 +16,7 @@ while count < 3:
     else:
         print ("think bigger!")
     count += 1
+# 让用户手动结束程序，输入n自动退出
     if count == 3:
         countine_confirm = raw_input("do you want to keep guessing?")
         if countine_confirm != "n":
